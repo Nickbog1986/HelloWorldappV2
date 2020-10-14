@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kip-0Z-6xw">
-                                <rect key="frame" x="66" y="425.5" width="282" height="45.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kip-0Z-6xw">
+                                <rect key="frame" x="66" y="425.5" width="282" height="45"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,8 +26,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
-                            <constraint firstItem="kip-0Z-6xw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LOm-rV-zVM"/>
-                            <constraint firstItem="kip-0Z-6xw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="buD-mo-jyS"/>
+                            <constraint firstItem="kip-0Z-6xw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Gmm-Re-WPj"/>
+                            <constraint firstItem="kip-0Z-6xw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="fUk-WP-jv7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kip-0Z-6xw" secondAttribute="trailing" constant="66" id="fYk-pL-Ouc"/>
                         </constraints>
                     </view>
                 </viewController>
